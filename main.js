@@ -146,5 +146,5 @@ function my_touchmove(e){
     ctx.lineTo(current_position_of_touchx, current_position_of_touchy);
     ctx.stroke();
     lastPositionOfTouchx=current_position_of_touchx;
-    lastPositionOfTouchy=current_position_of_touch_y;
+    lastPositionOfTouchy=current_position_of_touchy;
 }
